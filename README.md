@@ -7,6 +7,7 @@ It's a handy tool for quickly inspecting and adjusting the visual spacing and po
 - Allow toggling the activated files
 - Reset button for activated files
 - Add a quickpanel/popup page
+  - Showing layout of the headers (h1 - h6)
   - for injecting css directly
   - for node information about hovered / clicked element
   - Event Listeners on hovered / clicked element
