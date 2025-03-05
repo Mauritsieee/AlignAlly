@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inject CSS & JS</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            padding: 20px; 
+            text-align: center; 
+            background-color: #f4f4f9; 
+            color: #333; 
+        }
+        button { 
+            background-color: #E84C3D; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            padding: 12px 20px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            margin: 10px; 
+            width: 200px; 
+            transition: background-color 0.3s ease;
+        }
+        button:hover { 
+            background-color: #D94332; 
+        }
+        #file-map { 
+            margin-top: 20px; 
+            text-align: left; 
+            font-size: 14px;
+            display: none; 
+            background-color: #fff; 
+            padding: 15px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            width: 90%; 
+            max-width: 350px; 
+            margin: 20px auto;
+        }
+        #file-map strong { 
+            font-size: 16px; 
+            color: #E84C3D; 
+        }
+    </style>
+</head>
+<body>
+    <button id="inject-css">Apply CSS</button>
+    <button id="inject-js">Apply JS</button>
+    <button id="inject-both">Apply Both</button>
+    
+    <div id="file-map">
+        <strong>Loaded Files:</strong>
+        <ul id="loaded-list"></ul>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
