@@ -10,3 +10,6 @@ It's a handy tool for quickly inspecting and adjusting the visual spacing and po
   - for injecting css directly
   - for node information about hovered / clicked element
   - Event Listeners on hovered / clicked element
+    - `click`, `drag`, `submit`, `dblclick`, `change`, `keydown`, `keyup`, `keypress`,`mouseover`, `mouseout`, `mouseup`
+  - Fast element state changer using shortcut keys
+    - `:active`, `:focus`, `:hover` 
