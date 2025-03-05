@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Inject Debugging CSS & JS",
+    "name": "AlignAlly",
     "version": "1.0",
     "description": "Loads in a css and js file for debugging purposes.",
     "author": "MB Development", 
