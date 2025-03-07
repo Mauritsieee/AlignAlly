@@ -1,17 +1,22 @@
 {
-    "manifest_version": 3,
-    "name": "AlignAlly",
-    "version": "1.0",
-    "description": "Loads in a css and js file for debugging purposes.",
-    "author": "MB Development", 
-    "permissions": ["scripting", "activeTab"],
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
-      }
+  "manifest_version": 3,
+  "name": "AlignAlly",
+  "version": "1.0",
+  "description": "Loads in a CSS and JS file for debugging purposes.",
+  "author": "MB Development",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "/popup/popup-loader.js"
+  },
+  "action": {
+    "default_popup": "/popup/popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
     }
   }
-  
+}
