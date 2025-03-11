@@ -4,8 +4,6 @@ This extension loads custom front-end CSS and JavaScript files into the current 
 It's a handy tool for quickly inspecting and adjusting the visual spacing and positioning of elements without modifying the page's source code.
 
 ## Additional functionalities for future reference
-- Allow toggling the activated files
-- Reset button for activated files
 - Add a quickpanel/popup page
   - Showing layout of the headers (h1 - h6)
   - for injecting css directly

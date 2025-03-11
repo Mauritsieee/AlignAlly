@@ -4,9 +4,11 @@ const injectSpacingAllyScript = (type, file, button) => chrome.tabs.query({ acti
         button.disabled = true;
     }
 });
-document.getElementById("inject-css").addEventListener("click", function() {
+
+document.getElementById("inject-css-spacingally").addEventListener("click", function() {
     injectSpacingAllyScript('insertCSS', 'SpacingsAlly/styles.css', this);
 });
-document.getElementById("inject-js").addEventListener("click", function() {
+
+document.getElementById("inject-js-spacingally").addEventListener("click", function() {
     injectSpacingAllyScript('executeScript', 'SpacingsAlly/script.js', this);
 });
